@@ -1,0 +1,35 @@
+.splitter {
+	text-align: center;
+	margin-bottom: var(--mb-medium);
+}
+
+.splitter__text {
+	display: inline-block;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.splitter__text::before,
+.splitter__text::after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	width: 15rem;
+	background-color: var(--color-grey-light);
+	top: 50%;
+}
+
+.splitter__text::before {
+	left: 30px;
+}
+
+.splitter__text::after {
+	right: 30px;
+}
+
+@media screen and (max-width: 450px) {
+	.splitter__text::before,
+	.splitter__text::after {
+		width: 10rem;
+	}
+}

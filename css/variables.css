@@ -1,0 +1,14 @@
+:root {
+	--bg-color: #eff6ff;
+	--primary-text-color: #2a4a5c;
+	--secondary-text-color: #7b8a92;
+	--fb-btn-bg: #255a9b;
+	--in-btn-bg: #0076b6;
+	--primary-blue: #3698fb;
+	--secondary-blue: #96a5b1;
+	--primary-white: #ffffff;
+	--color-grey-light: #eeeeee;
+	--color-grey-dark: #afafaf;
+	--mb-small: 2rem;
+	--mb-medium: 4rem;
+}

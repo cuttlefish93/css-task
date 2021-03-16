@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iintoo - Create Account</title>
+
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- new account section -->
+  <section class="new-account">
+
+    <!-- logo -->
+    <a href="#" class="logo"><img src="img/logo.svg" alt="Company Logo"></a>
+
+    <!-- background image -->
+    <div class="new-account__bg"></div>
+
+    <!-- registration form -->
+    <div class="new-account__main registration-form">
+      <h2 class="new-account__title">Get iintoo it today</h2>
+
+      <h3 class="new-account__subtitle">There is no charge or obligation upon registration.</h3>
+
+      <!-- registration through social sites -->
+      <div class="registration-form__social">
+        <a href="https://facebook.com/" class="registration-form__social-link registration-form__social-link_fb">
+          <img src="img/facebook.svg" alt="Facebook logo">
+          <span>Register with Facebook</span>
+        </a>
+        <a href="https://linkedin.com/" class="registration-form__social-link registration-form__social-link_in">
+          <img src="img/linkedin.svg" alt="LinkedIn logo">
+          <span>Register with LinkedIn</span>
+        </a>
+      </div>
+
+      <div class="splitter">
+        <span class="splitter__text">or</span>
+      </div>
+
+      <!-- registraion contact info -->
+      <div class="registration-form__contacts">
+        <div class="registration-form__row">
+          <label for="email" class="registration-form__label">Email</label>
+          <input type="email" class="registration-form__input" name="email" id="email">
+        </div>
+
+        <div class="registration-form__row">
+          <label for="phone" class="registration-form__label">Phone</label>
+          <input type="tel" class="registration-form__input" name="phone" id="phone">
+        </div>
+      </div>
+
+      <!-- registration - type of client -->
+      <div class="registration-form__about">
+        <h4 class="registration-form__about-title">What type of investor are you?</h4>
+
+        <p class="registration-form__about-subtitle">Select the type of investor you are below.</p>
+
+        <div class="registration-form__radio-group">
+          <div class="registration-form__radio-row">
+            <input type="radio" class="registration-form__radio-input" name="investor-type" value="individual"
+              id="individual">
+            <label for="individual" class="registration-form__radio-label">Individual</label>
+          </div>
+
+          <div class="registration-form__radio-row">
+            <input type="radio" class="registration-form__radio-input" name="investor-type" value="business"
+              id="business">
+            <label for="business" class="registration-form__radio-label">Business</label>
+          </div>
+
+          <div class="registration-form__radio-row">
+            <input type="radio" class="registration-form__radio-input" name="investor-type" value="ira" id="ira">
+            <label for="ira" class="registration-form__radio-label">IRA</label>
+          </div>
+
+          <div class="registration-form__radio-row">
+            <input type="radio" class="registration-form__radio-input" name="investor-type" value="trust" id="trust">
+            <label for="trust" class="registration-form__radio-label">Trust</label>
+          </div>
+        </div>
+
+        <p class="registration-form__about-type-text">
+          I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
+        </p>
+      </div>
+
+      <!-- terms of use -->
+      <div class="registration-form__terms">
+        <input type="checkbox" name="terms" id="terms" class="registration-form__terms-input">
+        <label for="terms" class="registration-form__terms-label">
+          <span class="registration-form__terms-checkbox"></span>
+          I agree to the terms and receiving notifications from iintoo <a href="#">View full terms</a>
+        </label>
+      </div>
+
+      <button class="registration-form__btn">Create Account</button>
+
+    </div>
+
+  </section>
+</body>
+
+</html>

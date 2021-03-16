@@ -1,0 +1,10 @@
+.logo {
+	width: 15rem;
+	position: absolute;
+	top: 4rem;
+	left: 4rem;
+}
+
+.logo img {
+	width: 100%;
+}
